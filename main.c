@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+#include <stdint.h>
 
 int main()
 {
-	
-	printf("%s\n", "Hello");
+	int a=5;
+	printf("%s : %d \n", "Hello", a);
 	return 0;
 	
 }
